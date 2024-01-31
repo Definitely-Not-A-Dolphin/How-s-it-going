@@ -1,0 +1,9 @@
+reactie = input("You doing good? ")
+
+match reactie:
+    case "ja":
+        print(":D")
+    case "nee":
+        print(":(")
+    case "meh":
+        print(":l")
